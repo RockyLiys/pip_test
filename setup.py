@@ -10,7 +10,7 @@ from setuptools import find_packages, setup
 overlay_warning = False
 if "install" in sys.argv:
     lib_paths = [get_python_lib()]
-    print lib_paths
+    print(lib_paths)
     if lib_paths[0].startswith("/usr/lib/"):
         # We have to try also with an explicit prefix of /usr/local in order to
         # catch Debian's custom user site-packages directory.
