@@ -35,7 +35,7 @@ setup(
     license='',
     zip_safe=False,
     include_package_data=True,
-    packages=["rocky"],
+    packages=find_packages(),
     keywords=["rocky"],
 
 )
