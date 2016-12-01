@@ -56,10 +56,9 @@ setup(
     author_email='liys_liys@163.com',
     description=('A high-level Python core  that encourages '),
     license='',
-    include_package_data=True,
     zip_safe=False,
-    packages=get_packages('rocky'),
-    package_data=get_package_data('rocky'),
+    packages=find_packages(exclude=('pip_test', 'pip_test.*')),
+    include_package_data=True,
 
 )
 if overlay_warning:
