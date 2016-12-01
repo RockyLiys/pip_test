@@ -34,9 +34,10 @@ setup(
     description=('A high-level Python core  that encourages '),
     license='',
     zip_safe=False,
-    packages=["rocky"],
-    package_data={"rocky": ["rocky/pydoc/*"]},
     include_package_data=True,
+    packages=find_packages(exclude=('rocky', 'rocky.*')),
+    # package_data={"rocky": ["rocky/pydoc/*"]},
+    keywords=["rocky"],
 
 )
 if overlay_warning:
