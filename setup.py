@@ -23,15 +23,22 @@ if "install" in sys.argv:
             overlay_warning = True
             break
 
-version = __import__(PACKAGE_NAME).get_version()
+# version = __import__(PACKAGE_NAME).get_version()
 
 setup(
     name=PACKAGE_NAME,
-    version=version,
+    version='0.0.1',
     url='https://github.com/RockyLiys/',
     author='Pip_test Software Foundation',
     author_email='liys_liys@163.com',
     description=('A high-level Python core  that encourages '),
     license='',
 
+)
+if overlay_warning:
+    sys.stderr.write("""
+========
+WARNING!
+========
+"""
 )
