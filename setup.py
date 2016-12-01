@@ -25,7 +25,7 @@ if "install" in sys.argv:
 # version = __import__(PACKAGE_NAME).get_version()
 
 setup(
-    name=Rocky,
+    name='Rocky',
     version='0.0.1',
     url='https://github.com/RockyLiys/',
     author='Pip_test Software Foundation',
