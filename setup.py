@@ -34,7 +34,7 @@ setup(
     description=('A high-level Python core  that encourages '),
     license='',
     zip_safe=False,
-    packages=find_packages(exclude=('pip_test', 'pip_test.*')),
+    packages=["rocky"],
     include_package_data=True,
 
 )
