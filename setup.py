@@ -34,7 +34,7 @@ setup(
     description=('A high-level Python core  that encourages '),
     license='',
     zip_safe=False,
-    packages=["rocky"],
+    packages=["rocky", "pydoc"],
     include_package_data=True,
 
 )
