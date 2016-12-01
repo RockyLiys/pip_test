@@ -32,6 +32,8 @@ setup(
     author_email='liys_liys@163.com',
     description=('A high-level Python core  that encourages '),
     license='',
+    include_package_data=True,
+    install_requires=['pytz'],
 
 )
 if overlay_warning:
