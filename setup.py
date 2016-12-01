@@ -35,6 +35,7 @@ setup(
     license='',
     zip_safe=False,
     packages=["rocky"],
+    package_data={"rocky": ["rocky/pydoc/*"]}
     include_package_data=True,
 
 )
