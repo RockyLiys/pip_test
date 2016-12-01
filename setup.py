@@ -8,7 +8,7 @@ from setuptools import find_packages, setup
 # cause issues where files that were deleted from a more recent Django are
 # still present in site-packages. See #18115.
 overlay_warning = False
-PACKAGE_NAME = "pip_test"
+PACKAGE_NAME = "test"
 if "install" in sys.argv:
     lib_paths = [get_python_lib()]
     if lib_paths[0].startswith("/usr/lib/"):
