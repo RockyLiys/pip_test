@@ -34,7 +34,8 @@ setup(
     description=('A high-level Python core  that encourages '),
     license='',
     include_package_data=True,
-    install_requires=['pytz'],
+    packages=get_packages('rocky'),
+    package_data=get_package_data('rocky'),
 
 )
 if overlay_warning:
