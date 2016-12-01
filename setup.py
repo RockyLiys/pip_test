@@ -35,8 +35,7 @@ setup(
     license='',
     zip_safe=False,
     include_package_data=True,
-    packages=find_packages(exclude=('rocky', 'rocky.*')),
-    # package_data={"rocky": ["rocky/pydoc/*"]},
+    packages=["rocky"],
     keywords=["rocky"],
 
 )
